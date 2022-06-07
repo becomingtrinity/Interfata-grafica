@@ -72,8 +72,8 @@ def inregistrare():
     Label(inregistrare_interfata, text="Introduceti datele dvs:", font=("Times New Roman", 12)).grid(row=0, sticky=N,pady=10)
     Label(inregistrare_interfata, text="Nume de familie:", font=("Times New Roman", 12)).grid(row=1, sticky=W)
     Label(inregistrare_interfata, text="Prenume:", font=("Times New Roman", 12)).grid(row=3, sticky=W)
-    Label(inregistrare_interfata, text="Data de nastere:", font=("Times New Roman", 12)).grid(row=5, sticky=W)
-    Label(inregistrare_interfata, text="Varsta:", font=("Times New Roman", 12)).grid(row=7, sticky=W)
+    Label(inregistrare_interfata, text="Data de nastere(literal):", font=("Times New Roman", 12)).grid(row=5, sticky=W)
+    Label(inregistrare_interfata, text="Varsta(literal):", font=("Times New Roman", 12)).grid(row=7, sticky=W)
     Label(inregistrare_interfata, text="Sexul:", font=("Times New Roman", 12)).grid(row=9, sticky=W)
     Label(inregistrare_interfata, text="Parola de inregistrare:", font=("Times New Roman", 12)).grid(row=11, sticky=W)
     avertisment = Label(inregistrare_interfata, font=("Times New Roman", 12))
@@ -128,7 +128,7 @@ def sesiune_conectare():
                 Label(interfata_cont).grid(row=5, sticky=N, pady=10)
                 return
             else:
-                logare_avertisment.config(fg="red", text="Parola introdusa este incorecta!")
+                logare_avertisment.config(fg="red", text="Este necesar sa introduceti o parola!")
                 return
     logare_avertisment.config(fg="red", text="Nu s-a regasit niciun cont!")
 
