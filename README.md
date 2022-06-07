@@ -3,3 +3,4 @@ Acest proiect urmareste sa creeze o interfata grafica de tipul unui sistem banca
 
 Tehnologiile pe care le-am utilizat pentru realizarea proiectului au fost:
 modulul Tkinter pentru incorporarea unei interfete grafice interactive pentru utilizator
+modulul pillow pentru importarea de imagine artistica pentru interfata grafica
