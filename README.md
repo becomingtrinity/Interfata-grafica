@@ -4,6 +4,8 @@ Odata accesata corect autentificarea, clientul poate sa urmareasca sold-ul sau d
 
 Tehnologiile pe care le-am utilizat pentru realizarea proiectului au fost:
 
+Programare back-end:  Python
+
 modulul Tkinter pentru incorporarea unei interfete grafice interactive pentru utilizator
 
 modulul pillow pentru importarea de imagine artistica pentru interfata grafica
